@@ -34,4 +34,4 @@ jobs:
         run: |
           NOTES=$(awk -v ver="$VERSION" '/^## \[/{if(f)exit} index($0,"## [" ver "]")==1{f=1;next} f' CHANGELOG.md)
           gh release create "$GITHUB_REF_NAME" "approvalflow-$VERSION.zip" \
-            --title "Approval Flow $VERSION" --notes "$NOTES"
+            --title "Approval Flow $VERSION (Em Desenvolvimento / Beta)" --prerelease --notes "$NOTES"

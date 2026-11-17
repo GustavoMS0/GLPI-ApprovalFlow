@@ -2,7 +2,7 @@
 <root>
    <name>Approval Flow</name>
    <key>approvalflow</key>
-   <state>stable</state>
+   <state>beta</state>
    <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-ApprovalFlow/main/approvalflow.png</logo>
    <description>
       <short>
