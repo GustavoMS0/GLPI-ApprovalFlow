@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>Approval Flow</name>
+   <key>approvalflow</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-ApprovalFlow/main/approvalflow.png</logo>
+   <description>
+      <short>
+         <en>Automated multi-level approval workflow with native TicketValidation sync and two-step approval links for GLPI.</en>
+         <pt>Motor automático de regras de aprovação com sincronização nativa em TicketValidation e links seguros em duas etapas.</pt>
+      </short>
+      <long>
+         <en>Evaluates configurable approval rules per entity (with recursive inheritance), category, ticket type and minimum urgency on ticket creation and updates. Dispatches native GLPI TicketValidation entries across GLPI 10 (users_id_validate) and GLPI 11/12 (itemtype_target/items_id_target for users and groups), supports single-use cryptographic SHA-256 approval links with two-step GET/POST confirmation against link scanners, and blocks solving or closing tickets while approvals remain pending.</en>
+         <pt>Avalia regras configuráveis de aprovação por entidade (com herança recursiva), categoria, tipo de chamado e urgência mínima na criação e atualização de chamados. Cria validações nativas TicketValidation compatíveis com GLPI 10 (users_id_validate) e GLPI 11/12 (itemtype_target/items_id_target para usuários e grupos), gera links seguros de uso único com token SHA-256 e confirmação em duas etapas (GET/POST) resistente a pré-leitores de e-mail, e bloqueia solução ou fechamento enquanto houver aprovações pendentes.</pt>
+      </long>
+   </description>
+   <homepage>https://github.com/GustavoMS0/GLPI-ApprovalFlow</homepage>
+   <download>https://github.com/GustavoMS0/GLPI-ApprovalFlow/releases</download>
+   <issues>https://github.com/GustavoMS0/GLPI-ApprovalFlow/issues</issues>
+   <readme>https://github.com/GustavoMS0/GLPI-ApprovalFlow/blob/main/README.md</readme>
+   <authors>
+      <author>Gustavo Martins</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~10.0.0 || ~11.0.0 || ~12.0.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-ApprovalFlow/releases/download/v1.0.0/approvalflow-1.0.0.zip</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>pt_BR</lang>
+   </langs>
+   <license>GPLv3+</license>
+   <tags>
+      <en>
+         <tag>tickets</tag>
+         <tag>approval</tag>
+         <tag>validation</tag>
+         <tag>workflow</tag>
+         <tag>itil</tag>
+         <tag>security</tag>
+      </en>
+      <pt>
+         <tag>chamados</tag>
+         <tag>aprovação</tag>
+         <tag>validação</tag>
+         <tag>fluxo</tag>
+         <tag>itil</tag>
+         <tag>segurança</tag>
+      </pt>
+   </tags>
+</root>

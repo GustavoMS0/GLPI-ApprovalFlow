@@ -1,0 +1,382 @@
+# Approval Flow - Translation template
+# Copyright (C) 2026 by G. Martins
+# This file is distributed under the same license as the plugin (GPLv3+).
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Approval Flow 1.0.0\n"
+"POT-Creation-Date: 2026-11-17 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d pendente(s)"
+msgstr ""
+
+msgid "%d regra(s) na entidade"
+msgstr ""
+
+msgid "1 - Muito baixa ou superior"
+msgstr ""
+
+msgid "2 - Baixa ou superior"
+msgstr ""
+
+msgid "3 - Média ou superior"
+msgstr ""
+
+msgid "4 - Alta ou superior"
+msgstr ""
+
+msgid "5 - Muito alta"
+msgstr ""
+
+msgid "Abrir link"
+msgstr ""
+
+msgid "Adicionar regra"
+msgstr ""
+
+msgid "Aplicar às entidades filhas"
+msgstr ""
+
+msgid "Approval Flow"
+msgstr ""
+
+msgid "Approval Flow — Regras de Aprovação"
+msgstr ""
+
+msgid "Aprovado"
+msgstr ""
+
+msgid "Aprovador"
+msgstr ""
+
+msgid "Aprovar chamado"
+msgstr ""
+
+msgid "Aprovação automática pela regra: %s"
+msgstr ""
+
+msgid "Aprovação indisponível"
+msgstr ""
+
+msgid "Aprovação registrada"
+msgstr ""
+
+msgid "Aprovações"
+msgstr ""
+
+msgid "Ativa"
+msgstr ""
+
+msgid "Ativar"
+msgstr ""
+
+msgid "Atualizar regra"
+msgstr ""
+
+msgid "Avalia automaticamente novos chamados e alterações elegíveis."
+msgstr ""
+
+msgid "Ação"
+msgstr ""
+
+msgid "Ações"
+msgstr ""
+
+msgid "Bloquear solução/fechamento enquanto pendente"
+msgstr ""
+
+msgid "Bloqueia solução"
+msgstr ""
+
+msgid "Cancelado"
+msgstr ""
+
+msgid "Cancelar edição"
+msgstr ""
+
+msgid "Cat: %s | Tipo: %s | Urg >= %d"
+msgstr ""
+
+msgid "Categoria (0 = qualquer)"
+msgstr ""
+
+msgid "Chamado"
+msgstr ""
+
+msgid "Chamado #%d"
+msgstr ""
+
+msgid "Comentário / justificativa (opcional)"
+msgstr ""
+
+msgid "Confirmação de Aprovação"
+msgstr ""
+
+msgid "Confirmação de aprovação de chamado"
+msgstr ""
+
+msgid "Copie e compartilhe com o aprovador. Por segurança, o token bruto não é armazenado no banco de dados."
+msgstr ""
+
+msgid "Criar validação nativa (TicketValidation)"
+msgstr ""
+
+msgid "Critérios"
+msgstr ""
+
+msgid "Decidir"
+msgstr ""
+
+msgid "Decisão / Observação"
+msgstr ""
+
+msgid "Decisão registrada com sucesso"
+msgstr ""
+
+msgid "Desativar"
+msgstr ""
+
+msgid "Editar"
+msgstr ""
+
+msgid "Editar regra #%d"
+msgstr ""
+
+msgid "Entidade selecionada: %s (ID %d)"
+msgstr ""
+
+msgid "Entidade:"
+msgstr ""
+
+msgid "Entidade: %s | Urg >= %d"
+msgstr ""
+
+msgid "Esta solicitação de aprovação expirou ou já foi decidida."
+msgstr ""
+
+msgid "Esta solicitação já foi encerrada com status: %s."
+msgstr ""
+
+msgid "Ex.: Aprovação de mudança crítica"
+msgstr ""
+
+msgid "Excluir"
+msgstr ""
+
+msgid "Exigir sessão autenticada no link de token"
+msgstr ""
+
+msgid "Exigir todos os membros do grupo"
+msgstr ""
+
+msgid "Expande todos os membros ativos do grupo; cada membro precisa aprovar."
+msgstr ""
+
+msgid "Expira em: %s"
+msgstr ""
+
+msgid "Fluxo de aprovação do chamado"
+msgstr ""
+
+msgid "Gera token criptográfico de uso único (armazenado apenas como SHA-256)."
+msgstr ""
+
+msgid "Gerar link seguro de aprovação"
+msgstr ""
+
+msgid "Grupo"
+msgstr ""
+
+msgid "Grupo #%d"
+msgstr ""
+
+msgid "Grupo aprovador"
+msgstr ""
+
+msgid "Grupo: %s"
+msgstr ""
+
+msgid "Herda automaticamente esta regra para subentidades."
+msgstr ""
+
+msgid "Impede solucionar ou fechar o chamado até que a aprovação seja concluída."
+msgstr ""
+
+msgid "Inativa"
+msgstr ""
+
+msgid "Incidente"
+msgstr ""
+
+msgid "Informe um aprovador válido (usuário ou grupo) para salvar a regra."
+msgstr ""
+
+msgid "Instalado / configurado"
+msgstr ""
+
+msgid "Link de aprovação inválido ou já utilizado."
+msgstr ""
+
+msgid "Link de aprovação inválido."
+msgstr ""
+
+msgid "Link(s) de aprovação gerados agora (exibição única)"
+msgstr ""
+
+msgid "Nenhuma regra definida diretamente nesta entidade."
+msgstr ""
+
+msgid "Nenhuma solicitação de aprovação disparada para este chamado até o momento."
+msgstr ""
+
+msgid "Nome"
+msgstr ""
+
+msgid "Nome da regra"
+msgstr ""
+
+msgid "Nova regra de aprovação"
+msgstr ""
+
+msgid "Não foi possível alterar o status da regra."
+msgstr ""
+
+msgid "Não foi possível remover a regra selecionada."
+msgstr ""
+
+msgid "Não é possível solucionar o chamado enquanto houver aprovações pendentes no fluxo de aprovação."
+msgstr ""
+
+msgid "Não é possível solucionar ou fechar o chamado enquanto houver aprovações pendentes."
+msgstr ""
+
+msgid "O chamado #%d foi aprovado e o link de uso único foi invalidado."
+msgstr ""
+
+msgid "O chamado #%d foi recusado e o link de uso único foi invalidado."
+msgstr ""
+
+msgid "Opções"
+msgstr ""
+
+msgid "Pendente"
+msgstr ""
+
+msgid "Prioridade"
+msgstr ""
+
+msgid "Prioridade (menor executa primeiro)"
+msgstr ""
+
+msgid "Qualquer"
+msgstr ""
+
+msgid "Qualquer categoria"
+msgstr ""
+
+msgid "Qualquer tipo"
+msgstr ""
+
+msgid "Quando marcado, exige que o aprovador esteja logado no GLPI para confirmar o token."
+msgstr ""
+
+msgid "Recursiva"
+msgstr ""
+
+msgid "Recusado"
+msgstr ""
+
+msgid "Recusar aprovação"
+msgstr ""
+
+msgid "Registra e sincroniza a validação nativa do GLPI (usuário ou grupo)."
+msgstr ""
+
+msgid "Regra"
+msgstr ""
+
+msgid "Regra aplicada"
+msgstr ""
+
+msgid "Regra ativa"
+msgstr ""
+
+msgid "Regra de aprovação"
+msgstr ""
+
+msgid "Regra de aprovação removida com sucesso."
+msgstr ""
+
+msgid "Regra de aprovação salva com sucesso."
+msgstr ""
+
+msgid "Regras configuradas nesta entidade"
+msgstr ""
+
+msgid "Regras herdadas de entidades superiores (recursivas)"
+msgstr ""
+
+msgid "Requisição"
+msgstr ""
+
+msgid "Resumo da descrição"
+msgstr ""
+
+msgid "Revise os dados abaixo e confirme sua decisão. Nenhuma alteração é feita ao apenas abrir esta página."
+msgstr ""
+
+msgid "Solicitação #%d"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status da regra atualizado com sucesso."
+msgstr ""
+
+msgid "Tipo / Urgência"
+msgstr ""
+
+msgid "Tipo de aprovador"
+msgstr ""
+
+msgid "Tipo de chamado"
+msgstr ""
+
+msgid "Todos do grupo"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+msgid "Trocar entidade"
+msgstr ""
+
+msgid "Urgência mínima"
+msgstr ""
+
+msgid "Usuário"
+msgstr ""
+
+msgid "Usuário #%d"
+msgstr ""
+
+msgid "Usuário aprovador"
+msgstr ""
+
+msgid "Validade do link (dias)"
+msgstr ""
+
+msgid "Validação #%d"
+msgstr ""
+
+msgid "Validação nativa"
+msgstr ""
+
+msgid "Voltar ao chamado"
+msgstr ""
+
